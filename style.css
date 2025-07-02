@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Product Sans";
+    background-color: black;
+}
+.nav-bar{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding: 20px 50px;
+    align-items: center;
+    background: linear-gradient(to bottom, rgba(12, 12, 12, 0.7) 10%, rgba(0,0,0,0) 100%);
+    transition: all 0.5s ease-in-out;
+}
+.nav-bar:hover{
+    background: linear-gradient(to bottom, rgba(12, 12, 12, 0.7) );
+}
+.title{
+    font-size: larger;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+.tab-link{
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+    transition: all 0.5s ease-in-out;
+}
+.tab-link:hover{
+    color: rgb(107, 107, 255);
+}
+span{
+    color: rgb(107, 107, 255);
+}
+.coming-soon{
+    border: 3px solid rgb(107, 107, 255);
+    padding: 5px 10px;
+    border-radius: 15px;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+.coming-soon:hover{
+    background-color: rgb(107, 107, 255);
+    color: white;
+}
+.windows{
+    color: rgb(226, 226, 246);
+}
+.hero-section{
+    height: 80vh;
+    background: url(background.webp) center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0, 60px;
+    margin-bottom: 20px;
+}
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    gap: 50px;
+}
+.name{
+    font-size: 120px;
+    font-weight: bolder;
+    letter-spacing: 5px;
+}
+.abbrevation{
+    font-size: 20px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+.tags{
+    color: rgb(150, 150, 226);
+    font-weight: bold;
+    letter-spacing: 1px;
+}
