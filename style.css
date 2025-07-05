@@ -20,7 +20,7 @@ body{
     display: flex;
     color: white;
     justify-content: space-between;
-    padding: 20px 50px;
+    padding: 15px 50px;
     align-items: center;
     background: linear-gradient(to bottom, rgba(12, 12, 12, 0.7) 10%, rgba(0,0,0,0) 100%);
     transition: all 0.5s ease-in-out;
@@ -68,7 +68,7 @@ span{
     color: rgb(226, 226, 246);
 }
 .hero-section{
-    height: 80vh;
+    height: 95vh;
     /* Add fallback background color and fix background property */
     background-color: #1a1a1a; /* Fallback color */
     background-image: url(background.webp);
@@ -104,8 +104,14 @@ span{
     letter-spacing: 1px;
 }
 .logo{
-    margin-top: 50px;
+    margin-top: 15px;
     width: 200px;
+}
+
+.about {
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
 }
 
 .mobile-menu-btn {
@@ -235,7 +241,7 @@ span{
     
     .hero-section {
         padding: 0 20px;
-        height: 70vh;
+        height: 90vh;
     }
 }
 
