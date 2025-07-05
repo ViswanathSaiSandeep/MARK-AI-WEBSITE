@@ -24,8 +24,7 @@ body{
     align-items: center;
     background: linear-gradient(to bottom, rgba(12, 12, 12, 0.7) 10%, rgba(0,0,0,0) 100%);
     transition: all 0.5s ease-in-out;
-     min-height: 50px;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(20px);
 }
 .nav-bar:hover{
     background: linear-gradient(to bottom, rgba(12, 12, 12, 0.7) );
@@ -195,6 +194,60 @@ span{
     transform: scale(1.05);
 }
 
+.about-content{
+    background-color: rgb(0, 0, 15);
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    border: solid 3px rgb(0, 0, 47);
+}
+
+.des-title{
+    color: rgb(232, 249, 255);
+    font-size: larger;
+    font-weight: bold;
+}
+.description{
+    text-align: justify;
+    text-align: center;
+}
+
+.documentation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border: solid 3px rgb(0, 0, 47);
+    background-color: rgb(0, 0, 15);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.link{
+    background-color: blue;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 15px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.gemini{
+    width: 300px;
+}
+.integration-content{
+    background-color: rgb(0, 0, 15);
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    border: solid 3px rgb(0, 0, 47);
+}
 @media (max-width: 1024px) {
     .name {
         font-size: 80px;
