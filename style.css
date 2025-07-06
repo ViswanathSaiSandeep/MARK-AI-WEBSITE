@@ -379,6 +379,9 @@ span{
     .context{
         font-size: small;
     }
+    .gui{
+        gap: 20px;
+    }
 }
 
 @media (max-width: 580px) {
