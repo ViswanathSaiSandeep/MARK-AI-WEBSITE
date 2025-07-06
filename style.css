@@ -385,6 +385,9 @@ span{
     .gui{
         gap: 20px;
     }
+    .des-title{
+        font-size: medium;
+    }
 }
 
 @media (max-width: 580px) {
