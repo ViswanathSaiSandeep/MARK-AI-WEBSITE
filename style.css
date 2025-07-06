@@ -257,6 +257,11 @@ span{
 .features-page{
     color: white;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
 }
 .gui{
     justify-content: center;
@@ -273,6 +278,7 @@ span{
     gap: 20px;
 }
 .context{
+    max-width: 700px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -330,6 +336,9 @@ span{
         padding: 0 20px;
         height: 90vh;
     }
+    .ui{
+        width: 300px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -363,6 +372,12 @@ span{
     
     .hero-content {
         gap: 25px;
+    }
+    .ui{
+        width: 175px;
+    }
+    .context{
+        font-size: small;
     }
 }
 
