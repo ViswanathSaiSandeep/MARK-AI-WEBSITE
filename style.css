@@ -7,6 +7,9 @@
     -ms-user-select: none;
     -moz-user-select: none; 
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     padding-top: 50px;
     font-family: "Product Sans";
@@ -250,6 +253,34 @@ span{
     align-items: center;
     gap: 20px;
     border: solid 3px rgb(0, 0, 47);
+}
+.features-page{
+    color: white;
+    text-align: center;
+}
+.gui{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 30px;
+}
+.ui{
+    width: 350px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.context{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: solid 3px rgb(0, 0, 47);
+    background-color: rgb(0, 0, 15);
+    padding: 20px;
+    border-radius: 15px;
+    margin: 0 20px
 }
 @media (max-width: 1024px) {
     .name {
